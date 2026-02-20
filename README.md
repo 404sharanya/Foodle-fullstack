@@ -1,16 +1,79 @@
-# React + Vite
+# 🍽️ Foodle – Full Stack Recipe Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Foodle is a full-stack recipe discovery web application built using React, Node.js, Express, and MongoDB.
 
-Currently, two official plugins are available:
+Users can browse recipes by country and cuisine with dynamic data served from a custom backend API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend:
+- React (Vite)
+- React Router
+- Fetch API
 
-## Expanding the ESLint configuration
+Backend:
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features (Version 1)
+
+- 🌍 Browse recipes by country
+- 🍲 View cuisine-based dishes
+- 🔄 Dynamic routing with React Router
+- 🔗 Full frontend-backend integration
+- 🗃️ MongoDB database for recipe storage
+- 🧪 API tested using Postman
+
+---
+
+## 📁 Project Structure
+
+FOODLE/
+│
+├── backend/        → Express server & MongoDB connection
+├── src/            → React frontend source code
+├── package.json
+└── README.md
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone the repository
+
+2. Install frontend dependencies:
+   npm install
+
+3. Install backend dependencies:
+   cd backend
+   npm install
+
+4. Create a .env file inside backend folder and add:
+   MONGO_URI=your_mongodb_connection_string
+
+5. Start backend:
+   npm start
+
+6. Start frontend (in root folder):
+   npm run dev
+
+---
+
+## 🔮 Version 2 (Planned Upgrades)
+
+- 🔐 JWT Authentication (Login / Signup)
+- ➕ Add Recipe Form with Validation
+- 🚀 Deployment (Frontend: Vercel, Backend: Render)
+- 🛡️ Protected Routes
+
+---
+
+## 👩‍💻 Author
+
+Built by- Sharanya Basal
