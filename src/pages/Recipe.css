@@ -1,0 +1,118 @@
+.recipe-page {
+  position: relative;
+  padding: 2rem;
+}
+
+.recipe-img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 16px;
+  margin: 1.5rem auto;
+  display: block;
+}
+
+.controls {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.servings-control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.servings-control button {
+  padding: 5px 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  background-color: #da152c;
+}
+
+.servings-control button:hover {
+  background-color: #ec5d6e;
+}
+
+.servings-control span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.label-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.unit-label {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.unit-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.unit-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.unit-toggle button {
+  padding: 6px 14px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.unit-toggle button:hover {
+  background: #eaeaea;
+}
+
+.unit-toggle button.active {
+  background: #da152c;
+  color: white;
+  border-color: #efe8e8;
+}
+
+.steps-section {
+  margin-top: 40px;
+}
+
+.step-group {
+  margin-bottom: 30px;
+}
+
+.step-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.step-group ol {
+  padding-left: 20px;
+}
+
+.step-group li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+
